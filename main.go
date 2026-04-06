@@ -3,5 +3,6 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Hello World")
+	age := 10
+	fmt.Println("Your age is:", age)
 }
