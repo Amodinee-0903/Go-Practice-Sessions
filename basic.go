@@ -2,7 +2,10 @@ package main
 
 import "fmt"
 
+func add(a, b int) int {
+	return a + b
+}
 func main() {
-	name := "Amodinee"
-	fmt.Println(name)
+	sum := add(10, 20)
+	fmt.Println("Sum is:", sum)
 }
