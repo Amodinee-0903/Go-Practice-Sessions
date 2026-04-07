@@ -2,10 +2,18 @@ package main
 
 import "fmt"
 
-func add(a, b int) int {
-	return a + b
-}
+/* ⚙️ Task 3 (If-Else)
+👉 Write a program:
+variable age := 16 (or any)
+if age >= 18 → print "Adult"
+else → "Minor" */
+
 func main() {
-	sum := add(10, 20)
-	fmt.Println("Sum is:", sum)
+	age := 13
+
+	if age >= 18 {
+		fmt.Println("Adult")
+	} else {
+		fmt.Println("Minor")
+	}
 }
